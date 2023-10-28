@@ -40,7 +40,11 @@ pip install -U efaqa-corpus-zh     # 安装脚本包
 python -c "import efaqa_corpus_zh" # 下载语料文件
 ```
 
-`YOUR_LICENSE` 为从[证书商店](https://store.chatopera.com/product/efaqa001)购买的证书的【证书标识】，假设证书标识为*FOOBAR*，那么，设置如下：
+`YOUR_LICENSE` 为从[证书商店](https://store.chatopera.com/product/efaqa001)购买的证书的【证书标识】。
+
+![](https://cdndownload2.chatopera.com/store/imgs/efaqa001_ordering_image.jpg)
+
+假设证书标识为*FOOBAR*，那么，设置如下：
 
 ```
 # Linux / macOS
