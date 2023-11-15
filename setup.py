@@ -25,7 +25,7 @@ Welcome
 """
 
 setup(name='efaqa_corpus_zh',
-      version='1.0',
+      version='1.1',
       description='Emotional First Aid Dataset, 心理咨询问答语料库',
       long_description=LONGDOC,
       author='Hai Liang Wang',
@@ -51,7 +51,7 @@ setup(name='efaqa_corpus_zh',
       keywords='corpus,psychological,machine-learning,deep-learning,NLP,question-answering',
       packages=find_packages(),
       install_requires=[
-          'chatoperastore>=1.0.0'
+          'chatoperastore>=1.2.0'
       ],
       package_data={'efaqa_corpus_zh': ['**/*md', 'LICENSE']}
       )

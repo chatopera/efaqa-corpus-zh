@@ -35,7 +35,13 @@ python -c "import efaqa_corpus_zh" # 下载语料文件
 * Windows
 
 ```
+# Set ENV
+## 1/2 Command Prompt
 set EFAQA_DL_LICENSE=YOUR_LICENSE
+## 2/2 PowerShell
+$env:EFAQA_DL_LICENSE='YOUR_LICENSE'
+
+# Download
 pip install -U efaqa-corpus-zh     # 安装脚本包
 python -c "import efaqa_corpus_zh" # 下载语料文件
 ```
@@ -50,7 +56,10 @@ python -c "import efaqa_corpus_zh" # 下载语料文件
 # Linux / macOS
 export EFAQA_DL_LICENSE=FOOBAR
 # Windows
+## 1/2 Command Prompt
 set EFAQA_DL_LICENSE=FOOBAR
+## 2/2 PowerShell
+$env:EFAQA_DL_LICENSE='FOOBAR'
 ```
 
 ### 演示代码

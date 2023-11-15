@@ -17,7 +17,7 @@
 __copyright__ = "Copyright (c) 2020 Chatopera Inc <https://chatopera.com>. All Rights Reserved"
 __author__ = "Hai Liang Wang"
 __date__ = "2020-04-22:09:40:24"
-__version__ = 1.0
+__version__ = 1.1
 
 import gzip
 import logging
