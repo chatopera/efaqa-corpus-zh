@@ -50,6 +50,7 @@ print("\n  deliver your chatbots with Chatopera Cloud Services --> https://bot.c
 print("\n Module file path: %s" % __file__)
 print("\n ************ NOTICE ************")
 print("  Require license to download model package, purchase from https://store.chatopera.com/product/efaqa001")
+print("  Need a larger psychological corpus? 44,000,000+ tokens, check out https://github.com/chatopera/efaqa-corpus-raw")
 print(" ********************************\n")
 
 try:

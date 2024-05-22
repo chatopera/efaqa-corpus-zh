@@ -15,5 +15,5 @@ export PATH=/opt/miniconda3/envs/venv-py3/bin:$PATH
 
 cd $baseDir
 rm -rf dist build
-# python setup.py build sdist
-python setup.py sdist upload -r pypi
+python setup.py sdist
+twine upload dist/*

@@ -25,7 +25,7 @@ Welcome
 """
 
 setup(name='efaqa_corpus_zh',
-      version='1.1',
+      version='1.2',
       description='Emotional First Aid Dataset, 心理咨询问答语料库',
       long_description=LONGDOC,
       author='Hai Liang Wang',
