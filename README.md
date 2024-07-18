@@ -288,12 +288,6 @@ print(records[0]["title"])
 | negative  | 负面回复，对咨询者起负面作用             |
 
 
-## 在线数据平台
-
-为帮助大家更好的使用数据集，我们也上线到不同在线数据平台，以下为部分数据平台链接。
-
-[Kaggle](https://www.kaggle.com/samurais/emotional-first-aid-dataset) | [Baidu AI Studio](https://aistudio.baidu.com/aistudio/datasetdetail/31443) | [天池实验室](https://tianchi.aliyun.com/dataset/dataDetail?dataId=61868)
-
 ## 使用帮助
 
 在使用过程中，比如安装下载问题，请通过工单与我们联系，两个工作日内反馈：
