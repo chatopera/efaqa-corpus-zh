@@ -29,7 +29,22 @@
 * Pip
 
 
-### 安装和下载语料文件
+有以下两种方式，初次执行下载，下载速度取决于网络质量。
+
+### 方式1：python 源代码
+
+创建一个 Python 脚本，比如 `download.py`，脚本内容如下。
+
+```
+import os
+os.environ["EFAQA_DL_LICENSE"] = "YOUR_LICENSE" # 将 YOUR_LICENSE 替换为您的 证书标识，比如 LTXxxxx
+_licenseid = os.environ.get("EFAQA_DL_LICENSE", None)
+print("EFAQA_DL_LICENSE=", _licenseid)
+
+import efaqa_corpus_zh # 执行下载
+```
+
+### 方式2：设置环境变量
 
 * Linux 或 macOS
 
@@ -69,7 +84,7 @@ set EFAQA_DL_LICENSE=FOOBAR
 $env:EFAQA_DL_LICENSE='FOOBAR'
 ```
 
-### 演示代码
+### 读取语料
 
 ```
 import efaqa_corpus_zh
@@ -77,8 +92,6 @@ records = list(efaqa_corpus_zh.load())
 print("size: %s" % len(records))
 print(records[0]["title"])
 ```
-
-初次执行 `load` 接口，会下载数据，下载速度取决于网络质量。
 
 ## 数据格式
 
