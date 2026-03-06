@@ -11,6 +11,9 @@
 | 心理咨询问答语料库（Emotional First Aid Dataset） | [GitHub](https://github.com/chatopera/efaqa-corpus-zh), [Gitee](https://gitee.com/chatopera/efaqa-corpus-zh) | 人工标注的多轮对话 |
 | 心理咨询问答原始语料库（Emotional First Aid Raw Dataset） | [GitHub](https://github.com/chatopera/efaqa-corpus-raw), [Gitee](https://gitee.com/chatopera/efaqa-corpus-raw) | 爬取后未标注的原始语料 |
 
+
+*注：**心理咨询问答原始语料库**数据量比**心理咨询问答语料库**多非常多，更适合训练、微调 LLMs 模型；学术研究更适合使用**心理咨询问答原始语料库**进行无监督机器学习的探索。
+
 # Emotional First Aid Dataset
 
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI download month](https://img.shields.io/pypi/dm/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI version shields.io](https://img.shields.io/pypi/v/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)  [![License](https://cdndownload2.chatopera.com/cskefu/licenses/chunsong1.0.svg)](https://www.cskefu.com/licenses/v1.html "开源许可协议")
